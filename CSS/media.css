@@ -1,0 +1,178 @@
+@media screen {
+    .sidebar_small .logo h4 {
+        display: none;
+    }
+
+    .sidebar_small span {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .con_card .card-header h6 {
+        font-size: 12px;
+    }
+
+    .card-header li {
+        font-size: 14px;
+    }
+
+    .card-header li a {
+        padding: 0;
+    }
+
+    .con_card .card-body .con_list {
+        padding: 0 !important
+    }
+
+    .con_card .card-body .con_list text {
+        font-size: 12px;
+    }
+
+    .con_card .card-body .con_list h6 {
+        font-size: 14px;
+    }
+
+    .con_card .card-body .con_list p {
+        font-size: 11px;
+    }
+
+    .con_card .card-body .con_list .likes h6 {
+        /* justify-content: start; */
+        font-size: 12px;
+    }
+
+    .likes {
+        justify-content: start !important;
+        margin-top: 5px
+    }
+
+    .likes span {
+        margin-right: 10px
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar .toggled {
+        overflow: visible;
+        width: 6.5rem !important;
+    }
+
+    .search-bar {
+        width: max-content
+    }
+
+    .search-bar .input-group .form-control {
+        display: none;
+    }
+
+    .input-group {
+        /* width: max-content; */
+        justify-content: end;
+        border: none;
+        background: #F2F6FA;
+    }
+
+    .input-group-text {
+        background: #F2F6FA;
+    }
+
+    .search-bar button {
+        display: none;
+    }
+
+    .logo h4 {
+        display: none;
+    }
+
+    .user {
+        /* justify-content: start; */
+        width: max-content;
+    }
+
+    .user h4{
+        display: none;
+    }
+
+    .nav-link span{
+        display: none;
+    }
+
+    .nav-link a{
+        /* padding:  */
+    }
+
+    #sidebar{
+        /* padding: 100px; */
+    }
+
+    .leave {
+        /* background: red */
+    }
+}
+
+@media (max-width: 376px) {
+
+    .leave_remaining .fonts h6,
+    .leave_taken .fonts h6,
+    .leave_pending .fonts h6 {
+        font-size: 10px;
+        margin: 0
+    }
+
+    .leave_remaining .fonts h5,
+    .leave_taken .fonts h5,
+    .leave_pending .fonts h5 {
+        font-size: 18px;
+        margin: 0
+    }
+
+    .leave_taken .fonts h5 {
+        margin-top: 12px
+    }
+
+    .leaves .fonts {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 321px) {
+    .leave_remaining .fonts h5 {
+        margin-top: 10px;
+        padding-top: 4px;
+    }
+
+    .con_card .card-header h6 {
+        font-size: 12px;
+    }
+
+    .con_card .card-body .con_list {
+        padding: 0 !important
+    }
+
+    .con_card .card-body .con_list text {
+        font-size: 12px;
+    }
+
+    .con_card .card-body .con_list h6 {
+        font-size: 14px;
+    }
+
+    .con_card .card-body .con_list p {
+        font-size: 11px;
+    }
+
+    .con_card .card-body .con_list .likes h6 {
+        /* justify-content: start; */
+        font-size: 12px;
+    }
+
+    .likes {
+        justify-content: start !important;
+        margin-top: 5px
+    }
+
+    .likes span {
+        margin-right: 10px
+    }
+}
